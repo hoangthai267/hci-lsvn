@@ -1,0 +1,24 @@
+.form-contact input,
+.form-contact textarea {
+	padding: 10px;
+}
+
+.form-contact * {
+	padding: 3px;
+	border-radius: 0;
+}
+
+.form-contact input[type="submit"] {
+	background-color: #990000;
+	color: #fff;
+}
+
+
+ul.media-list li {
+	padding: 0;
+}
+
+ul.media-list li img {
+	height: 100px;
+	width: 100px;
+}

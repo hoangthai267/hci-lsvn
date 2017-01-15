@@ -1,0 +1,89 @@
+.devide {
+	width: 30%;
+	margin: auto;
+	height: 1px;
+	background-color: #333;
+	color: red;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+#main h2 {
+	padding-top: 20px;
+}
+
+.panel, .panel * {
+	border-radius: 0;
+}
+
+.panel-default >.panel-heading {
+	background-color: #fff;
+}
+
+.panel-title {
+	font-weight: bold;
+	border-left: 10px solid #990000;
+	padding-left: 10px;
+}
+
+.panel-body {
+	
+}
+
+
+
+.panel-body .thumbnail {
+	padding: 0;
+}
+
+.panel-body .thumbnail img {
+	
+}
+
+.panel-body .thumbnail .caption {
+	
+}
+
+.panel-body .thumbnail .caption h4 {
+	
+}
+
+.panel-body .thumbnail .caption p {
+	
+}
+
+.panel-body .thumbnail .caption a.btn-primary {
+	background-color: rgba(153, 0, 0, 0.7);
+	border-color: rgba(153, 0, 0, 0.1);
+}
+
+.panel-body .thumbnail .caption a.btn-primary:hover {
+	background-color: rgba(153, 0, 0, 1);
+	border-color: rgba(153, 0, 0, 1);
+}
+
+
+.panel-body .thumbnail .caption a.btn-default {
+	
+}
+
+.panel-footer {
+	background-color: #333333;
+}
+
+.panel-footer a {
+	color: #fff;
+}
+
+.panel-footer a:hover {
+	color: #a6a6a6;
+}
+
+
+.panel-footer a:before {
+	content: "> ";
+}
+
+.panel-footer a:after {
+	content: " <";
+}

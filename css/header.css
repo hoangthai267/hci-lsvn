@@ -1,0 +1,25 @@
+header {
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+    background-color: #32373B;
+}
+
+header i:hover,
+header i:focus {
+    color: #000;
+}
+
+header .header-menu-list {
+    text-align: center;
+}
+
+header .header-menu-list li a {
+    padding: 0px 10px;
+    color: #fff;
+}
+
+header .header-menu-list li a:hover,
+header .header-menu-list li a:focus {
+    color: #000;
+}

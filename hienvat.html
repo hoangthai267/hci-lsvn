@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+        <title>Hiện vật lịch sử</title>
+        
+        <link rel="stylesheet" href="fonts/font-awesome-4.4.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/diadanh.css">
+        <link rel="stylesheet" href="css/hienvat.css">
+<!--         <link rel="stylesheet" href="css/chuyende.css">
+        <link rel="stylesheet" href="css/ngaynaynamxua.css">
+        <link rel="stylesheet" href="css/pagetransition.css"> -->
+
+        <!-- Plug-ins -->
+        <link rel="stylesheet" href="plugins/liquidcarousel/css/liquidcarousel.css">
+
+
+        <style>
+			.main-event .topic ul li {
+				width: 100%;
+				margin-bottom: 20px;
+			}
+
+			.main-event .topic ul {
+				margin-top: 20px;
+			}
+        </style>
+    </head>
+    <body>
+        <!-- header -->
+        <header class="hidden-xs">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="hidden-sm col-md-2">
+                        <span>Thứ 6, ngày 13/12/2015</span>
+                    </div>
+                    <div class="col-sm-12 col-md-8">
+                        <ul class="header-menu-list">
+                            <li>
+                                <a href="#">Biển Đông</a>
+                                <a href="#">Chiến tranh biên giới</a>
+                                <a href="#">Đại thắng mùa xuân</a>
+                                <a href="#">Đại tướng Võ Nguyên Giáp</a>
+                                <a href="#">Chủ tịch Hồ Chí Minh</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="hidden-sm col-md-2">
+                        <span>Theo dõi chúng tôi: <i class="fa fa-facebook"></i> <i class="fa fa-twitter"></i> <i class="fa fa-google-plus"></i></span>
+                    </div>
+                </div>
+            </div>
+        </header> <!-- end header -->
+        
+        <!-- navigation -->
+        <nav id="navigation">
+            <div class="navbar navbar-custom" role="navigation">
+                <div class="container-fluid">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+                    </div>
+                    <div class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="index.html">TRANG CHỦ</a></li>
+                            
+                            <li>
+                                <a href="#">CHUYÊN ĐỀ <i class="fa fa-caret-down"></i></a>
+                                <ul class="fallback">
+                                    <li><a href="chuyendenhanvat.html">NHÂN VẬT</a></li>
+                                    <li><a href="chuyendesukien.html">SỰ KIỆN</a></li>
+                                    <li><a href="chuyendehinhanh.html">HÌNH ẢNH</a></li>
+                                    <li><a href="chuyendeditich.html">DI TÍCH</a></li>                                    
+                                </ul>
+                            </li>
+                            
+                            <li class="giaidoan">
+                                <a href="giaidoan.html">GIAI ĐOẠN <i class="fa fa-caret-down"></i></a>
+                                <ul class="fallback">
+                                    <li><a href="#">THỜI KỲ TIỀN SỬ</a></li>
+                                    <li><a href="#">THỜI KỲ SƠ SỬ</a></li>
+                                    <li><a href="#">THỜI KỲ BẮC THUỘC</a></li>
+                                    <li><a href="#">THỜI KỲ PHONG KIẾN</a></li>
+                                    <li><a href="#">THỜI KỲ PHÁP THUỘC</a></li>
+                                    <li><a href="#">THỜI KỲ 1945-1986</a></li>
+                                    <li><a href="#">THỜI KỲ SAU ĐỔI MỚI</a></li>
+                                </ul>
+                            </li>
+                            <li class="cosu hidden-sm">
+                                <a href="#">CỔ SỬ <i class="fa fa-caret-down"></i></a>
+                                <ul class="fallback">
+								    <li><a href="daivietsukytoanthu.html">ĐẠI VIỆT SỬ KÝ TOÀN THƯ</a></li>
+                                    <li><a href="#">HUYỀN SỬ, DÃ SỬ</a></li>
+                                    <li><a href="#">ĐẠI NAM THỰC LỤC</a></li>
+                                    <li><a href="#">ĐẠI VIỆT SỬ KÝ</a></li>
+                                    <li><a href="#">TÁC PHẨM KHÁC</a></li>
+                                </ul>
+                            </li>
+							<li><a href="hienvat.html">HIỆN VẬT</a></li>
+							<li><a href="diadanh.html">ĐỊA DANH</a></li>
+                            <li class="nnnx"><a href="ngaynaynamxua.html">NGÀY NÀY NĂM XƯA</a></li>
+                            <li class="lib hidden-sm">
+                                <a href="#">THƯ VIỆN <i class="fa fa-caret-down"></i></a>
+                                <ul class="fallback">
+                                    <li><a href="#">HÌNH ẢNH</a></li>
+                                    <li><a href="video.html">VIDEO</a></li>
+                                    <li><a href="#">SÁCH</a></li>
+                                    <li><a href="#">PHIM NGẮN</a></li>
+                                    <li><a href="#">BẢN ĐỒ VIỆT NAM</a></li>
+                                    
+                                </ul>
+                            </li>
+                            <li class="qa hidden-sm hidden-md"><a href="#">HỎI ĐÁP</a></li>
+                            <li class="cont hidden-sm hidden-md"><a href="lienhe.html">LIÊN HỆ</a></li>
+                            <!-- <li class="sear">
+                                <a href="timkiem.html"><i class="fa fa-search fa-lg"></i></a>
+                                <ul class="fallback">
+                                    <li><input type="text" class="form-control" placeholder="Nhập thông tin tìm kiếm..."></li>
+                                </ul>
+                            </li> -->
+
+                            <!---->
+                            <li class="elipsis hidden-xs hidden-lg">
+                                <a href="#"><span class="fa fa-ellipsis-v"></span></a>
+                                <ul class="fallback">
+                                    <li class="visibility-sm hidden-md"><a href="#">CỔ SỬ</a></li>
+                                    <li class="visibility-sm hidden-md"><a href="#">THƯ VIỆN</a></li>
+                                    <li class="visibility-sm"><a href="#">HỎI ĐÁP</a></li>
+                                    <li class="visibility-sm"><a href="lienhe.html">LIÊN HỆ</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li class="sear">
+                                <a href="timkiem.html"><i class="fa fa-search fa-lg"></i></a>
+                                <ul class="fallback">
+                                    <li><input type="text" class="form-control" placeholder="Nhập thông tin tìm kiếm..."></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div><!--/.navbar-collapse -->
+                </div>
+            </div>
+        </nav> <!-- end navigation -->
+
+        <!-- main -->
+        <section id="main" style="border-top: 1px solid #ededed;">
+            <!-- <div class="row"> -->
+                <div class="container">
+                    <h2>HIỆN VẬT LỊCH SỬ</h2>
+                    <!-- nhà lê -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">THỜI NHÀ LÊ</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat1.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình nóng vẽ rồng núi thời Hán</h4>
+                                            <p>Công dụng: đựng rượu tế.<br>Bình cao 26cm hình củ tỏi, bầu tròn, cổ thót hình trụ nhỏ và dài, đường kính miệng 4cm, đường kính đáy 10,5cm.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat2.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Đỉnh phỏng đỉnh Văn Vương thời Chu</h4>
+                                            <p>Công dụng: đựng thức ăn tế lễ. Đỉnh cao 29,3cm cả quai, riêng chân cao 9cm, bề dày miệng 1,5cm. Thân đỉnh kiểu hình hộp chữ nhật.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="visible-sm-block">
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat3.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình có tay cầm đầu ly vẽ sấm thời Chu</h4>
+                                            <p>Công dụng: đựng đồ tế. Bình cao 17 cm đường kính miệng 7,6cm, có hình cầu, tay cầm là một thanh dẹp uốn hình chữ U cao 9cm, rộng 1,5cm đúc nối với bình ở phần vai.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat4.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Cốc phỏng cốc Tử Ất thời Chu</h4>
+                                            <p>Công dụng: đựng rượu tế. Cốc cao 41,5cm đúc dày 0,5cm, miệng loe đường kính 19cm, có hình dạng giống như một cái ống nhổ, đứng trên 3 chân kiểu lá lúa cao 20cm chiếm nửa chiều cao cốc.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat1.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình nóng vẽ rồng núi thời Hán</h4>
+                                            <p>Công dụng: đựng rượu tế.<br>Bình cao 26cm hình củ tỏi, bầu tròn, cổ thót hình trụ nhỏ và dài, đường kính miệng 4cm, đường kính đáy 10,5cm.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat2.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Đỉnh phỏng đỉnh Văn Vương thời Chu</h4>
+                                            <p>Công dụng: đựng thức ăn tế lễ. Đỉnh cao 29,3cm cả quai, riêng chân cao 9cm, bề dày miệng 1,5cm. Thân đỉnh kiểu hình hộp chữ nhật.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="visible-sm-block">
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat3.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình có tay cầm đầu ly vẽ sấm thời Chu</h4>
+                                            <p>Công dụng: đựng đồ tế. Bình cao 17 cm đường kính miệng 7,6cm, có hình cầu, tay cầm là một thanh dẹp uốn hình chữ U cao 9cm, rộng 1,5cm đúc nối với bình ở phần vai.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat4.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Cốc phỏng cốc Tử Ất thời Chu</h4>
+                                            <p>Công dụng: đựng rượu tế. Cốc cao 41,5cm đúc dày 0,5cm, miệng loe đường kính 19cm, có hình dạng giống như một cái ống nhổ, đứng trên 3 chân kiểu lá lúa cao 20cm chiếm nửa chiều cao cốc.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>                         
+                            </div>
+                        </div>
+                        <div class="panel-footer text-center">
+                            <a href="#">Xem thêm địa hiện vật thời Nhà Lê</a>
+                        </div>
+                    </div>
+                    
+                    <div class="devide"></div>
+
+                    <!-- nhà trần -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">THỜI NHÀ TRẦN</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat1.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình nóng vẽ rồng núi thời Hán</h4>
+                                            <p>Công dụng: đựng rượu tế.<br>Bình cao 26cm hình củ tỏi, bầu tròn, cổ thót hình trụ nhỏ và dài, đường kính miệng 4cm, đường kính đáy 10,5cm.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat2.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Đỉnh phỏng đỉnh Văn Vương thời Chu</h4>
+                                            <p>Công dụng: đựng thức ăn tế lễ. Đỉnh cao 29,3cm cả quai, riêng chân cao 9cm, bề dày miệng 1,5cm. Thân đỉnh kiểu hình hộp chữ nhật.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="visible-sm-block">
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat3.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình có tay cầm đầu ly vẽ sấm thời Chu</h4>
+                                            <p>Công dụng: đựng đồ tế. Bình cao 17 cm đường kính miệng 7,6cm, có hình cầu, tay cầm là một thanh dẹp uốn hình chữ U cao 9cm, rộng 1,5cm đúc nối với bình ở phần vai.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat4.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Cốc phỏng cốc Tử Ất thời Chu</h4>
+                                            <p>Công dụng: đựng rượu tế. Cốc cao 41,5cm đúc dày 0,5cm, miệng loe đường kính 19cm, có hình dạng giống như một cái ống nhổ, đứng trên 3 chân kiểu lá lúa cao 20cm chiếm nửa chiều cao cốc.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat1.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình nóng vẽ rồng núi thời Hán</h4>
+                                            <p>Công dụng: đựng rượu tế.<br>Bình cao 26cm hình củ tỏi, bầu tròn, cổ thót hình trụ nhỏ và dài, đường kính miệng 4cm, đường kính đáy 10,5cm.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat2.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Đỉnh phỏng đỉnh Văn Vương thời Chu</h4>
+                                            <p>Công dụng: đựng thức ăn tế lễ. Đỉnh cao 29,3cm cả quai, riêng chân cao 9cm, bề dày miệng 1,5cm. Thân đỉnh kiểu hình hộp chữ nhật.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="visible-sm-block">
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat3.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình có tay cầm đầu ly vẽ sấm thời Chu</h4>
+                                            <p>Công dụng: đựng đồ tế. Bình cao 17 cm đường kính miệng 7,6cm, có hình cầu, tay cầm là một thanh dẹp uốn hình chữ U cao 9cm, rộng 1,5cm đúc nối với bình ở phần vai.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat4.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Cốc phỏng cốc Tử Ất thời Chu</h4>
+                                            <p>Công dụng: đựng rượu tế. Cốc cao 41,5cm đúc dày 0,5cm, miệng loe đường kính 19cm, có hình dạng giống như một cái ống nhổ, đứng trên 3 chân kiểu lá lúa cao 20cm chiếm nửa chiều cao cốc.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>                         
+                            </div>
+                        </div>
+                        <div class="panel-footer text-center">
+                            <a href="#">Xem thêm địa hiện vật thời Nhà Lê</a>
+                        </div>
+                    </div>
+
+                    <div class="devide"></div>
+
+                    <!-- VĂN HÓA VI SƠN -->
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">VĂN HÓA VI SƠN</h3>
+                        </div>
+                        <div class="panel-body">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat1.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình nóng vẽ rồng núi thời Hán</h4>
+                                            <p>Công dụng: đựng rượu tế.<br>Bình cao 26cm hình củ tỏi, bầu tròn, cổ thót hình trụ nhỏ và dài, đường kính miệng 4cm, đường kính đáy 10,5cm.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat2.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Đỉnh phỏng đỉnh Văn Vương thời Chu</h4>
+                                            <p>Công dụng: đựng thức ăn tế lễ. Đỉnh cao 29,3cm cả quai, riêng chân cao 9cm, bề dày miệng 1,5cm. Thân đỉnh kiểu hình hộp chữ nhật.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="visible-sm-block">
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat3.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình có tay cầm đầu ly vẽ sấm thời Chu</h4>
+                                            <p>Công dụng: đựng đồ tế. Bình cao 17 cm đường kính miệng 7,6cm, có hình cầu, tay cầm là một thanh dẹp uốn hình chữ U cao 9cm, rộng 1,5cm đúc nối với bình ở phần vai.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat4.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Cốc phỏng cốc Tử Ất thời Chu</h4>
+                                            <p>Công dụng: đựng rượu tế. Cốc cao 41,5cm đúc dày 0,5cm, miệng loe đường kính 19cm, có hình dạng giống như một cái ống nhổ, đứng trên 3 chân kiểu lá lúa cao 20cm chiếm nửa chiều cao cốc.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat1.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình nóng vẽ rồng núi thời Hán</h4>
+                                            <p>Công dụng: đựng rượu tế.<br>Bình cao 26cm hình củ tỏi, bầu tròn, cổ thót hình trụ nhỏ và dài, đường kính miệng 4cm, đường kính đáy 10,5cm.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat2.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Đỉnh phỏng đỉnh Văn Vương thời Chu</h4>
+                                            <p>Công dụng: đựng thức ăn tế lễ. Đỉnh cao 29,3cm cả quai, riêng chân cao 9cm, bề dày miệng 1,5cm. Thân đỉnh kiểu hình hộp chữ nhật.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class="visible-sm-block">
+                                    <div class="clearfix"></div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat3.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Bình phỏng bình có tay cầm đầu ly vẽ sấm thời Chu</h4>
+                                            <p>Công dụng: đựng đồ tế. Bình cao 17 cm đường kính miệng 7,6cm, có hình cầu, tay cầm là một thanh dẹp uốn hình chữ U cao 9cm, rộng 1,5cm đúc nối với bình ở phần vai.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-sm-6 col-md-3">
+                                    <div class="thumbnail">
+                                        <img src="images/hienvat4.png" alt="...">
+                                        <div class="caption">
+                                            <h4>Cốc phỏng cốc Tử Ất thời Chu</h4>
+                                            <p>Công dụng: đựng rượu tế. Cốc cao 41,5cm đúc dày 0,5cm, miệng loe đường kính 19cm, có hình dạng giống như một cái ống nhổ, đứng trên 3 chân kiểu lá lúa cao 20cm chiếm nửa chiều cao cốc.</p>
+                                            <p><a href="#" class="btn btn-primary" role="button">Chi tiết</a></p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="clearfix"></div>                         
+                            </div>
+                        </div>
+                        <div class="panel-footer text-center">
+                            <a href="#">Xem thêm địa hiện vật thời Nhà Lê</a>
+                        </div>
+                    </div>
+                </div>
+            <!-- </div> -->
+        </section> <!-- end main -->
+
+        <!-- footer -->
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h5>Giới thiệu website</h5>
+                        <span>ABC là hệ thống website về lịch sử Việt Nam. Mục đích thành lập website là để tra cứu các thông tin về lịch sử Việt nam từ lúc XXX đến nay. Nhằm giúp cho giá trị lịch sử Việt nam được phát huy....</span>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h5>Mạng xã hội</h5>
+                        <ul>
+                            <li class="link-facebook">
+                                <span>Facebook: </span>
+                                <a href="#">Thích</a>
+                                <a href="#">Chia sẽ</a>
+                                <a href="#">Theo dõi</a>
+                            </li>
+                            <li class="link-twitter">
+                                <span>Twitter: </span>
+                                <a href="#">Thích</a>
+                                <a href="#">Chia sẽ</a>
+                                <a href="#">Theo dõi</a>
+                            </li>
+                            <li class="link-google">
+                                <span>Google: </span>
+                                <a href="#">Thích</a>
+                                <a href="#">Chia sẽ</a>
+                                <a href="#">Theo dõi</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="visible-sm-block clearfix"></div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h5>Liên kết</h5>
+                        <ul>
+                            <li><a href="#">Hội sử học Việt Nam</a></li>
+                            <li><a href="#">Hội sử học thành phố Hồ Chí Minh</a></li>
+                            <li><a href="#">Câu lạc bộ lịch sử Việt Nam</a></li>
+                            <li><a href="#">Khoa Lịch sử trường ĐH KHXHVNV</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-xs-12 col-sm-6 col-md-3">
+                        <h5>Về chúng tôi</h5>
+                        <ul>
+                            <li>Nguyễn Thanh Cao - 12520035</li>
+                            <li>Huỳnh Đức Đăng Khoa - 12520204</li>
+                            <li>Tăng Duy Khoa - 12520207</li>
+                            <li>Nguyễn Hoàng Thái - 12520386</li>
+                        </ul>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div style="border-top: 2px solid #990000;"></div>
+                    <span>© 2016 Đồ án môn học giao tiếp người máy - SE215.H11</span>
+                </div>
+            </div>
+        </footer> <!-- end footer -->
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        
+        <!-- Plugins -->
+        <script src="plugins/liquidcarousel/js/jquery.liquidcarousel.pack.js"></script>
+        <script>
+            $(document).ready(function() {
+                $('#liquid1').liquidcarousel({height:129, duration:100, hidearrows:false});
+            });
+        </script>
+        <script>
+            $(function () {
+                $('.navbar-collapse.collapse li ul').hide().removeClass('fallback');
+                $('.navbar-collapse.collapse li').hover(function () {
+                    $('ul', this).stop().slideToggle(200);
+                });
+            });
+        </script>
+        <script type="text/javascript">
+            var subnavigation = document.querySelector('#navigation');
+            var ogriOffsetY = subnavigation.offsetTop;
+
+            function onScroll(e) {
+                window.scrollY >= ogriOffsetY ? subnavigation.classList.add('sticky') :
+                subnavigation.classList.remove('sticky');
+            }
+            var lastScrollTop = 0;
+            $(window).scroll(function(event){
+               var st = $(this).scrollTop();
+               if (st > lastScrollTop){
+                   subnavigation.classList.remove('sticky');
+               }
+               lastScrollTop = st;
+            });
+            document.addEventListener('scroll', onScroll);
+        </script>
+    </body>
+</html>

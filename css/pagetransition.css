@@ -1,0 +1,42 @@
+.pagetransition {
+	
+}
+
+.pagetransition .btn-toolbar {
+
+}
+
+.pagetransition .btn-toolbar .btn-group {
+
+}
+
+.pagetransition .btn-toolbar .btn-group button {
+	border-radius: 0;
+}
+
+.pagetransition .btn-toolbar .btn-group button:hover {
+
+}
+
+.pagetransition .btn-toolbar .btn-group button.active {
+	background-color: #990000;
+	color: #fff;
+}
+
+.topic ul li button {
+	color: #fff;
+	border-radius: 0;
+	background-color: #990000;
+}
+
+.topic ul li button:hover {
+	color: #990000;
+	border-radius: 0;
+	background-color: #cccccc;
+}
+
+@media all and (max-width: 768px) {
+	.pagetransition {
+		margin-bottom: 30px;
+	}
+}

@@ -1,0 +1,40 @@
+.panel-body .thumbnail .caption p:last-child {
+	text-align: center;
+}
+
+.panel-body .thumbnail .caption a.btn-primary {
+	background-color: rgba(83, 82, 82, 0.7);
+	border-color: rgba(83, 82, 82, 0.1);
+
+}
+
+.panel-body .thumbnail .caption a.btn-primary:hover {
+	background-color: rgba(153, 0, 0, 1);
+	border-color: rgba(153, 0, 0, 1);
+}
+
+
+.panel-body .thumbnail .caption a.btn-default {
+	
+}
+
+.panel-footer {
+	background-color: #FDFDFD;
+}
+
+.panel-footer a {
+	color: #990000;
+}
+
+.panel-footer a:hover {
+	color: #a6a6a6;
+}
+
+
+.panel-footer a:before {
+	content: "> ";
+}
+
+.panel-footer a:after {
+	content: " <";
+}

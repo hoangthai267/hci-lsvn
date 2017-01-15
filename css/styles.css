@@ -1,0 +1,260 @@
+@import url(header.css);
+@import url(footer.css);
+@import url(navigation.css);
+@import url(slidebar.css);
+
+/*general*/
+body {
+	background-color: #fafafa;
+}
+
+a, a:hover, a:active {
+	text-decoration: none;
+}
+
+ul {
+	list-style: none;
+	padding: 0;
+}
+
+ul li {
+	display: block;
+	padding: 0;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    width: 100%;
+}
+
+/*main*/
+#main {
+	
+}
+
+.topic-wrapper {
+	border: 2px solid #EDEDED;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+
+.topic-wrapper .topic {
+	
+}
+
+.topic-wrapper .topic a {
+	color: #393847;
+}
+
+.topic-wrapper .topic a:hover,
+.topic-wrapper .topic a:focus
+{
+	color: #990000;
+}
+
+.topic-wrapper .topic .topic-title {
+	font-size: 17px;
+	font-weight: bold;
+	padding: 0px 10px;
+	margin: 25px 0px 25px 10px;
+	border-left: 10px solid #990000;
+}
+
+.topic-wrapper .topic ul {
+	
+}
+
+.topic-wrapper .topic ul li.box-news {
+	padding-bottom: 50px;
+}
+
+.topic-wrapper .topic ul li.box-news .field-news {
+	float: left;
+	border-top: 1px solid #EDEDED;
+	padding-top: 5px;
+	width: 100%;
+}
+
+.topic-wrapper .topic ul li.box-news .field-news a {
+	color: #A5A5B8;
+}
+
+.topic-wrapper .topic ul li.box-news .field-news a:hover,
+.topic-wrapper .topic ul li.box-news .field-news a:focus {
+	color: #990000;
+}
+
+.topic-wrapper .topic ul li.box-news .image-news {
+	clear: both;
+	width: 100%;
+	height: 200px;
+	position: relative;
+	overflow: hidden;
+}
+
+.topic-wrapper .topic ul li.box-news .image-news a {
+	
+}
+
+.topic-wrapper .topic ul li.box-news .image-news img {
+	position: absolute;
+	width: 100%;
+	top: 50%;
+	left: 50%;
+	margin-left: -50%;
+	margin-top: -100px;
+}
+
+.topic-wrapper .topic ul li.box-news h3 {
+	padding: 0;
+	margin: 7px 0px 10px 0px;
+}
+
+.topic-wrapper .topic ul li.box-news h3 a {
+	color: #393847;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.topic-wrapper .topic ul li.box-news h3 a:hover,
+.topic-wrapper .topic ul li.box-news h3 a:focus {
+	color: #990000;
+}
+
+.topic-wrapper .topic ul li.box-news p.summary {
+	
+}
+
+
+.field-wrapper {
+	border: 2px solid #EDEDED;
+	background-color: #fff;
+	margin-top: 40px;
+}
+
+.field-wrapper .field {
+	
+}
+
+.field-wrapper .field .field-title {
+	background-color: #3C4145;
+	border-left: 10px solid #990000;
+}
+
+.field-wrapper .field .field-title h2 {
+	font-size: 17px;
+	font-weight: bold;
+	margin: 13px 0px;
+}
+
+.field-wrapper .field .field-title h2 a {
+	color: #fff;
+}
+
+.field-wrapper .field .head-wrapper {
+	padding: 0;
+	margin-bottom: 10px;
+}
+
+.field-wrapper .field .head-wrapper .top-head h3 {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.field-wrapper .field .head-wrapper .top-head h3 a {
+	color: #393847;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.field-wrapper .field .head-wrapper .top-head h3 a:hover, 
+.field-wrapper .field .head-wrapper .top-head h3 a:focus {
+	color: #990000;
+}
+
+.field-wrapper .field .head-wrapper .top-head p {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.field-wrapper .field .head-wrapper .head-img {
+	padding: 0;
+	position: relative;
+}
+
+.field-wrapper .field .head-wrapper .head-img img {
+	max-height: 500px;
+	width: 100%;
+}
+
+.field-wrapper .field .head-wrapper .head-img .field-tag {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 5px;
+	background-color: #000;
+	color: #fff;
+}
+
+.field-wrapper .field .head-wrapper .head-img .field-tag:hover,
+ .field-wrapper .field .head-wrapper .head-img .field-tag:focus {
+	background-color: #990000;
+}
+
+.field-wrapper .field .field-items {
+	padding: 0;
+}
+
+.field-wrapper .field .field-items ul {
+
+}
+
+.field-wrapper .field .field-items ul li {
+	
+}
+
+.field-wrapper .field .field-items ul li {
+
+}
+
+.field-wrapper .field .field-items ul li img {
+	width: 100%;
+	height: 200px;
+}
+
+.field-wrapper .field .field-items ul li h3 {
+	padding: 0;
+	margin-top: 10px;
+	margin-bottom: 0px;
+}
+
+.field-wrapper .field .field-items ul li h3 a.items-title {
+	color: #393847;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.field-wrapper .field .field-items ul li h3 a.items-title:hover,
+.field-wrapper .field .field-items ul li h3 a.items-title:focus {
+	color: #990000;
+}
+
+.field-wrapper .field .field-items ul li a.items-tag {
+	color: #393847;
+	font-size: 11px;
+	padding: 2px;
+	background-color: #f9f9f9;
+}
+
+.field-wrapper .field .field-items ul li a.items-tag:hover,
+.field-wrapper .field .field-items ul li a.items-tag:focus {
+	color: #990000;
+	background-color: #f0f0f0;
+}
+
+/*aside*/
+aside {
+
+}

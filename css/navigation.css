@@ -1,0 +1,252 @@
+/*navigation*/
+nav {
+	color: #000;
+	background-color: #FAFAFA;
+}
+
+/* navbar */
+.navbar-custom {
+    background-color: #fafafa;
+    margin: 0;
+}
+/* title */
+.navbar-custom .navbar-brand {
+    background-color: #000;
+}
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus {
+    background-color: gray;
+}
+/* link */
+.navbar-form input {
+	border-radius: 0px;
+}
+.navbar-custom .navbar-nav > li {
+    background-color: #fafafa;
+    margin: 1px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+}
+.navbar-custom .navbar-nav > li > a {
+    color: #00003D;
+    font-weight: bold;
+}
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus {
+    color: #fff;
+    background-color: #333333;
+}
+.navbar-custom .navbar-nav > .active > a, 
+.navbar-custom .navbar-nav > .active > a:hover, 
+.navbar-custom .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #990000;
+}
+.navbar-custom .navbar-nav > .open > a, 
+.navbar-custom .navbar-nav > .open > a:hover, 
+.navbar-custom .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #D5D5D5;
+}
+/* caret */
+.navbar-custom .navbar-nav > .dropdown > a .caret {
+    border-top-color: #777;
+    border-bottom-color: #777;
+}
+.navbar-custom .navbar-nav > .dropdown > a:hover .caret,
+.navbar-custom .navbar-nav > .dropdown > a:focus .caret {
+    border-top-color: #333;
+    border-bottom-color: #333;
+}
+.navbar-custom .navbar-nav > .open > a .caret, 
+.navbar-custom .navbar-nav > .open > a:hover .caret, 
+.navbar-custom .navbar-nav > .open > a:focus .caret {
+    border-top-color: #555;
+    border-bottom-color: #555;
+}
+/* mobile version */
+.navbar-custom .navbar-toggle {
+    border-color: lightgray;
+}
+.navbar-custom .navbar-toggle:hover {
+    background-color: #fff;
+}
+.navbar-custom .navbar-toggle:hover .icon-bar {
+    background-color: #000;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+@media all and (max-width: 767px) {
+    .navbar-custom {
+        background-color: #000;
+        margin: 0;
+    }
+    .navbar-custom .navbar-nav > li {
+        background-color: #000;
+        margin: 1px;
+    }
+    .navbar-custom .navbar-nav > li > a {
+        color: #ccc;
+        font-weight: bold;
+    }
+    .navbar-custom .navbar-nav > li > a:hover,
+    .navbar-custom .navbar-nav > li > a:focus {
+        color: #fff;
+        background-color: #333333;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+        color: #777;
+    }
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+        color: #333;
+    }
+    .navbar-collapse.collapse ul li.giaidoan ul {
+        width: 100%;
+    }
+    .navbar-collapse.collapse ul li.cosu ul {
+        width: 100%;
+    }
+    .navbar-collapse.collapse ul li.lib ul {
+        width: 100%;
+    }
+    .navbar-collapse.collapse ul li.sear ul {
+        width: 100%;
+    }
+    .navbar-collapse.collapse ul li.elipsis ul {
+        width: 100%;
+    }
+}
+
+@media all and (min-width: 768px) and (max-width: 991px) {
+    .navbar-custom .navbar-nav li {
+        font-size: 12px;
+    }
+    .navbar-collapse.collapse ul li.giaidoan ul {
+        width: 200%;
+    }
+    .navbar-collapse.collapse ul li.cosu ul {
+        width: 300%;
+    }
+    .navbar-collapse.collapse ul li.lib ul {
+        width: 200%;
+    }
+    .navbar-collapse.collapse ul li.sear ul {
+        width: 900%;
+    }
+    .navbar-collapse.collapse ul li.elipsis ul {
+        width: 400%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1199px) {
+    .navbar-custom .navbar-nav li {
+        font-size: 11.5px;
+    }
+    .navbar-collapse.collapse ul li.giaidoan ul {
+        width: 200%;
+    }
+    .navbar-collapse.collapse ul li.cosu ul {
+        width: 300%;
+    }
+    .navbar-collapse.collapse ul li.lib ul {
+        width: 200%;
+    }
+    .navbar-collapse.collapse ul li.sear ul {
+        width: 900%;
+    }
+    .navbar-collapse.collapse ul li.elipsis ul {
+        width: 400%;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .navbar-custom .navbar-nav li {
+        font-size: 13px;
+    }
+    .navbar-collapse.collapse ul li.giaidoan ul {
+        width: 200%;
+    }
+    .navbar-collapse.collapse ul li.cosu ul {
+        width: 300%;
+    }
+    .navbar-collapse.collapse ul li.lib ul {
+        width: 200%;
+    }
+    .navbar-collapse.collapse ul li.sear ul {
+        width: 900%;
+    }
+    .navbar-collapse.collapse ul li.elipsis ul {
+        width: 400%;
+    }
+
+}
+
+.navbar-collapse.collapse {
+    
+}
+
+.navbar-collapse.collapse ul {
+    
+}
+
+.navbar-collapse.collapse ul li {
+    
+}
+
+.navbar-collapse.collapse ul li.active {
+    
+}
+
+.navbar-collapse.collapse ul li:hover {
+    
+}
+
+.navbar-collapse.collapse ul li a {
+    
+}
+
+/*child-list*/
+.navbar-collapse.collapse ul li ul {
+    border-bottom: 5px solid #990000;
+    border-top: 1px solid #990000;
+    background-color: #EDEDED;
+    position: absolute;
+    padding: 0px;
+    z-index: 999;
+    width: 100%;
+    top: 52px;
+    right: 0px;
+}
+
+.navbar-collapse.collapse ul li ul li {
+    display: block;
+    padding: 10px 20px;
+}
+
+.navbar-collapse.collapse ul li ul li:hover {
+    background-color: #990000;
+}
+
+.navbar-collapse.collapse ul li ul li:hover a {
+    color: #fff;
+}
+
+.navbar-collapse.collapse ul li ul li a {
+    color: #333;
+    display: inline-block;
+    font-weight: normal;
+}
+
+.navbar-collapse.collapse ul li ul li a:hover {
+    color: #fff;
+}
+
+.navbar-collapse.collapse ul li ul.fallback {
+    display: none;
+}
+
+.navbar-collapse.collapse ul li:hover ul.fallback {
+    display: block;
+}

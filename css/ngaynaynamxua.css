@@ -1,0 +1,81 @@
+p {
+	font-size: 20px;
+}
+
+.main-event {
+	font-family: 'Arial';
+}
+
+.main-event .widget {
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ededed;
+}
+
+.main-event .widget form * {
+	margin: 1px;
+}
+
+.main-event .widget select {
+	border-radius: 0;
+	margin-right: 2px;
+}
+
+.main-event .widget input {
+	border-radius: 0;
+}
+
+.main-event .widget button {
+	border-radius: 0;
+}
+
+.main-event .widget {
+	
+}
+
+.main-event .events {
+	
+}
+
+.main-event .events table {
+	
+}
+
+.main-event .events table tbody {
+	font-size: 20px;
+}
+
+.main-event .events table tbody tr td {
+	padding: 5px;
+}
+
+.event-relationship {
+	background-color: #fff;
+}
+
+.event-relationship table {
+
+}
+
+.event-relationship table tbody {
+	font-size: 17px;
+}
+
+.event-relationship table tbody tr {
+	border-top: 2px solid #EDEDED;
+}
+
+.event-relationship table tr td {
+	line-height: 1.5;
+	padding: 5px 5px 25px 5px;
+}
+
+.event-relationship table tr td a {
+	background-color: #f0f0f0;
+	font-size: 13px;
+	padding: 2px;
+	color: #550000;
+}
+
+.event-relationship table tr td a:hover {
+	background-color: #cccccc;
+}

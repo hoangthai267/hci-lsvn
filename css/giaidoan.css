@@ -1,0 +1,53 @@
+.main-event .topic .panel {
+	border-radius: 0;
+	margin-bottom: 10px;
+}
+
+.main-event .topic .panel-heading {
+	background-color: transparent;
+}
+
+.main-event .topic .panel-heading:hover {
+	background-color: #990000;
+}
+
+.main-event .topic .panel-heading:hover .panel-title {
+	color: #fff;
+	border-left: 10px solid #fff;
+}
+
+.main-event .topic .panel-heading .panel-title {
+	font-weight: bold;
+	padding-left: 10px;
+	border-left: 10px solid #990000;
+}
+
+.main-event .topic .panel-body {
+	
+}
+
+.main-event .topic .panel-body .list-group {
+	margin-bottom: 0;
+}
+
+.main-event .topic .panel-body .list-group .list-group-item {
+	border-radius: 0;
+	border: none;
+
+}
+
+.main-event .topic .panel-body .list-group .list-group-item-heading {
+	border-bottom: 1px dotted #CDC9C9;
+	padding-bottom: 5px;
+}
+
+.main-event .topic .panel-body .list-group .list-group-item-heading:before {
+	content: "c";
+	margin-right: 10px;
+	background-color: #8D8D8D;
+	color: #8D8D8D;
+}
+
+.main-event .topic .panel-body .list-group .list-group-item-text {
+
+}
